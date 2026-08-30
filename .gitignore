@@ -1,0 +1,54 @@
+# ---------- Sui / Move ----------
+# Build & test artifacts
+contracts/build/
+contracts/*.move.test
+contracts/*.move.bin
+contracts/*.move.bc
+contracts/*.move.bytecode
+contracts/*.move.err
+contracts/coverage/
+contracts/.coverage
+
+# Local Sui config & keys (NEVER commit)
+sui-test-keypair
+sui.keystore
+*.key
+*.pem
+sui-config.yaml
+sui-config-testnet.yaml
+sui-config-mainnet.yaml
+
+# ---------- Frontend (Vite + TS) ----------
+node_modules/
+dist/
+.out/
+*.local
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Scripts / tooling
+scripts/node_modules/
+scripts/dist/
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Optional: if you generate any local docs/builds
+docs/build/
+docs/.vitepress/dist/
+
+bin/

@@ -1,0 +1,23 @@
+{
+  "name": "sui-gaming-lootbox",
+  "version": "1.0.0",
+  "description": "Verifiable Mystery Loot Box & NFT Ecosystem built on Sui Move with native on-chain randomness (sui::random) and dynamic fields pity system.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:move": "bin/sui.exe move test --path contracts",
+    "test": "npm run test:move && npm run build:frontend"
+  },
+  "keywords": [
+    "sui",
+    "move",
+    "gaming",
+    "nft",
+    "lootbox",
+    "on-chain-randomness",
+    "dynamic-fields",
+    "web3"
+  ],
+  "author": "Google DeepMind / Antigravity",
+  "license": "MIT"
+}
